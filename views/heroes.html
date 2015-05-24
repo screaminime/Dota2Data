@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <p> <%= name %> </p>
+  <img src="/images/teamfight.jpg" alt="">
+  <ol>
+    <% for(var i=0; i<candies.length; i++) {%>
+       <li><%= candies[i] %></li>
+    <% } %>
+  </ol>
+</body>
+</html>
